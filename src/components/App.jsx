@@ -13,6 +13,7 @@ import TransactionHistory from './TransactionHistory/TransactionHistory';
 
 
 export default function App() {
+  const uploadStatsTitle = "Upload stats";
   return (
     <div>
       <Profile
@@ -22,7 +23,7 @@ export default function App() {
         avatar={user.avatar}
         stats={user.stats}
       />
-      <Statistics title="Upload stats" stats={data} />
+      <Statistics title={uploadStatsTitle} stats={data} />
       <FriendList friends={friends} />
       <TransactionHistory items={transactions} />
     </div>
