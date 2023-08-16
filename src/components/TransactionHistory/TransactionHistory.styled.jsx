@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 
 export const TransactionHistoryTable = styled.table`
-margin: 0 auto;
+margin: 70px auto;
 width: 360px;
 padding: 10px;
 border-collapse: collapse;
