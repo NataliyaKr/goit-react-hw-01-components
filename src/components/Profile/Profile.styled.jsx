@@ -1,42 +1,45 @@
 import styled from '@emotion/styled';
 
 export const ProfileWrap = styled.div`
-/* width: 300px;
+width: 300px;
 margin: 0 auto;
 padding: 50px 30px;
-background-color: green; */
+background-color: lightblue;
+border-radius: 12px;
 `;
 
 export const Description = styled.div`
-/* width: 200px;
+width: 220px;
+height: 200px;
 margin: 0 auto;
 padding: 20px;
-background-color: #fff; */
+background-color: #fff;
+border-radius: 12px;
 `;
 
 export const Avatar = styled.div`
-/* width: 100px;
+width: 100px;
 display: block;
 border-radius: 50%;
-margin: 0 auto; */
+margin: 0 auto 20px;
 `;
 
 export const Name = styled.p`
-/* text-align: center;
+text-align: center;
 font-weight: 700;
 font-size: 22px;
-margin-bottom: 15px; */
+margin-bottom: 15px;
 `;
 
 export const Tag = styled.p`
-/* text-align: center;
+text-align: center;
 color: grey;
-margin-bottom: 10px; */
+margin-bottom: 10px;
 `;
 
 export const Location = styled.p`
-/* text-align: center;
-color: grey; */
+text-align: center;
+color: grey;
 `;
 
 export const Stats = styled.ul``;
